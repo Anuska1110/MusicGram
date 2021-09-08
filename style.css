@@ -1,0 +1,143 @@
+body{
+  padding 7% 14%;
+}
+ul {
+  list-style-type: none;
+
+  padding: 0;
+  overflow: hidden;
+  background-color: #261C2C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #FDF5CA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#total{
+  margin: 2%;
+  background-color: #FDF5CA;
+
+font-family: 'Roboto', sans-serif;
+}
+li a:hover {
+  background-color: #FDF5CA;
+  color: #261C2C;
+}
+.container1 {
+  position: relative;
+  font-family: Arial;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #8E9775; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #515E63;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#exp, #review{
+
+  margin: 3% 0% 3% 30%;
+}
+#contact{
+    background-color: #261C2C;
+    color:#f2f2f2;
+}
+.text-block {
+  position: absolute;
+  top: 40%;
+  right: 45%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+font-family: 'Architects Daughter', cursive;
+  font-size: 400;
+
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
+}
+
+h5 {
+  animation: move 3s;
+  -webkit-animation: move 3s;
+}
+
+
+  .popout {
+      position: absolute;
+      left: 60px;
+      top: 620px;
+      
+      margin-left: 10%;
+      animation: popout 4s;
+}
+
+@keyframes popout {
+    0% {transform:scale(0)}
+    100% {transform:scale(1)}
+}
+#video{
+  margin: 5%;
+}
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
